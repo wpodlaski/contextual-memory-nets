@@ -19,5 +19,5 @@ Breakdown of the code:
     - `run_rand_nrn_gating_numerics.py` : runs all capacity and stability numerics for random neuronal gating (dependencies: pytorch, sklearn, matplotlib, seaborn, tqdm)
     - ... (each model has an accompanying run file) 
 - `data`: folder where theory and numerics data is stored
-    - `data/theory/gauss_hopfield.pkl` : stores numerical functions for \alpha_\Delta and m_\Delta (Eqs. 6, 8 in the paper)
+    - `data/theory/gauss_hopfield.pkl` : stores numerical functions for $\alpha_\Delta$ and $m_\Delta$ (Eqs. 6, 8 in the paper)
     - `data/numerics/overlaps/` : stores all numerical overlap data used to estimate capacity (note that these folders are empty and will only be populated if the numerical capacity scripts are run first)
